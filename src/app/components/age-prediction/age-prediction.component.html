@@ -1,0 +1,6 @@
+<ng-container >
+  <mat-card>
+    <mat-card-title>Age prediction</mat-card-title>
+    <mat-card-content *ngIf="data$ | async as item">{{ item.age }}</mat-card-content>
+  </mat-card>
+</ng-container>
