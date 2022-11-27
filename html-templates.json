@@ -99,7 +99,7 @@
     },
     "title-description": {
       "container": "<ng-container *ngIf=\"$detailVariable$ | async as $itemVariable$\">$content$</ng-container>",
-      "content": "<h1>$title</h1>\n<p>$decription</p>"
+      "content": "<h1>$title$</h1>\n<p>$decription$</p>"
     }
   }
 }
